@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
 })
 export class MainPage {
 student: StudentID[] =[
-{sno:1, name:'Alice Anderson', course:'BCSA'},
+{sno:1, name:'Alice Anderson ', course:'BCSA'},
 {sno:2, name:'Bian Smith', course:'HRM'},
 {sno:3, name:'Catherine Lee ', course:'BSA'},
 {sno:4, name:'David kim', course:'BSBA'},
