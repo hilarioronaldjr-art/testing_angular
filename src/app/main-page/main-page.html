@@ -1,0 +1,17 @@
+<div class="mainpage- container">
+    <h2>Student List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+    </table>
+    <tbody>
+        <tr *ngFor="let student of student">
+            <td><a [routerLink]="['/student', student.sno]">{{ student.name }}</a></td>
+            <td> {{student.name}} </td>
+            <td> {{student.course}} </td>
+        </tr>
+    </tbody>
